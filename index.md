@@ -9,7 +9,7 @@ nav_order: 1
 
 ---
 
-### 📋 Требования
+### [📋 Требования](/requirements/)
 
 - [SA/BA](/requirements/ba-sa/)
 - [Приоритизация](/requirements/prioritization/)
@@ -21,14 +21,14 @@ nav_order: 1
 - [Декомпозиция](/requirements/decomposition/)
 - [ПМИ / ПСИ](/requirements/pmi-psi/)
 
-### 🗂️ Методологии
+### [🗂️ Методологии](/methodologies/)
 
 - [Waterfall](/methodologies/waterfall/)
 - [Agile](/methodologies/agile/)
 - [Scrum](/methodologies/scrum/)
 - [Kanban](/methodologies/kanban/)
 
-### 🔌 Интеграции
+### [🔌 Интеграции](/integrations/)
 
 - [REST](/integrations/rest/)
 - [SOAP](/integrations/soap/)
@@ -37,7 +37,7 @@ nav_order: 1
 - [Webhook](/integrations/webhook/)
 - [Websocket](/integrations/websocket/)
 
-### 🏗️ Архитектура
+### [🏗️ Архитектура](/architecture/)
 
 - [DevOps](/architecture/devops/)
 - [Логи](/architecture/logging/)
@@ -48,14 +48,14 @@ nav_order: 1
 - [Принципы](/architecture/principles/)
 - [Фича тоглинг](/architecture/feature-toggles/)
 
-### 🌐 Сети
+### [🌐 Сети](/networks/)
 
 - [Git](/networks/git/)
 - [HTTP/HTTPS](/networks/http-https/)
 - [SSL](/networks/ssl/)
 - [TLS](/networks/tls/)
 
-### 🗄️ Базы данных
+### [🗄️ Базы данных](/databases/)
 
 - [SQL](/databases/sql/)
 - [Транзакции](/databases/transactions/)
@@ -67,7 +67,7 @@ nav_order: 1
 - [Оконные функции](/databases/window-functions/)
 - [CAP теорема](/databases/cap-theorem/)
 
-### 📊 UML
+### [📊 UML](/uml/)
 
 - [Диаграмма классов](/uml/class-diagram/)
 - [Диаграмма действий](/uml/activity-diagram/)
@@ -76,17 +76,15 @@ nav_order: 1
 - [Диаграмма ER](/uml/er-diagram/)
 - [BPMN](/uml/bpmn/)
 
-### 🔒 Безопасность
+### [🔒 Безопасность](/security/)
 
 - [Маскирование](/security/masking/)
 - [Шифрование](/security/encryption/)
 - [Хеш](/security/hash/)
 
-### 💼 Бизнес-домены
+### [💼 Бизнес-домены](/business-domains/)
 
 - [Кредиты](/business-domains/loans/)
 - [Карты](/business-domains/cards/)
 
 ---
-
-*Сайт создан с помощью GitHub Pages и Just the Docs.*
