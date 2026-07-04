@@ -7,7 +7,7 @@ permalink: /requirements/
 
 # 📋 Требования
 
-- [BA/SA](/requirements/ba-sa/)
+- [BA/SA](/requirements/ba-sa/index.md)
 - [Приоритизация](/requirements/prioritization/)
 - [Фазы/процессы](/requirements/phases-processes/)
 - [Прототипирование](/requirements/prototyping/)
