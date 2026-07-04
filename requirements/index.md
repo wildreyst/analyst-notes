@@ -3,6 +3,7 @@ title: Требования
 nav_order: 2
 has_children: true
 permalink: /requirements/
+toc: false
 ---
 
 # 📋 Требования
