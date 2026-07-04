@@ -7,12 +7,12 @@ permalink: /requirements/
 
 # 📋 Требования
 
-- [BA/SA](/requirements/ba-sa/)
-- [Приоритизация](/requirements/prioritization/)
-- [Фазы/процессы](/requirements/phases-processes/)
-- [Прототипирование](/requirements/prototyping/)
-- [User Story](/requirements/user-story/)
-- [Use Case](/requirements/use-case/)
-- [SWOT](/requirements/swot/)
-- [Декомпозиция](/requirements/decomposition/)
-- [ПМИ/ПСИ](/requirements/pmi-psi/)
+- [BA/SA](/analyst-notes/requirements/ba-sa/)
+- [Приоритизация](/analyst-notes/requirements/prioritization/)
+- [Фазы/процессы](/analyst-notes/requirements/phases-processes/)
+- [Прототипирование](/analyst-notes/requirements/prototyping/)
+- [User Story](/analyst-notes/requirements/user-story/)
+- [Use Case](/analyst-notes/requirements/use-case/)
+- [SWOT](/analyst-notes/requirements/swot/)
+- [Декомпозиция](/analyst-notes/requirements/decomposition/)
+- [ПМИ/ПСИ](/analyst-notes/requirements/pmi-psi/)
