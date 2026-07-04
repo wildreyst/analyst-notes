@@ -9,7 +9,7 @@ nav_order: 1
 
 ---
 
-### [📋 Требования](/requirements/)
+### [📋 Требования](/analyst-notes/requirements/)
 
 - [SA/BA](/requirements/ba-sa/)
 - [Приоритизация](/requirements/prioritization/)
