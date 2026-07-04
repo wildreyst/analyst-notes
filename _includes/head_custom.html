@@ -1,20 +1,9 @@
+<!-- Загружаем библиотеку Mermaid -->
 <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
 <script>
+  // Ждём полной загрузки страницы, затем запускаем рендеринг
   document.addEventListener('DOMContentLoaded', function () {
-    // Инициализируем Mermaid без автоматического запуска
-    mermaid.initialize({ startOnLoad: false });
-
-    // Находим все блоки кода с языком mermaid
-    document.querySelectorAll('code.language-mermaid').forEach(function(code) {
-      // Создаём div с классом mermaid и переносим содержимое
-      var div = document.createElement('div');
-      div.className = 'mermaid';
-      div.textContent = code.textContent;
-      // Заменяем родительский <pre> на новый div
-      code.parentElement.replaceWith(div);
-    });
-
-    // Запускаем рендеринг всех найденных диаграмм
+    mermaid.initialize({ startOnLoad: false, theme: 'default' });
     mermaid.run();
   });
 </script>
