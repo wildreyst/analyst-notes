@@ -1,27 +1,27 @@
 <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
 <script>
   document.addEventListener('DOMContentLoaded', function () {
-    // 1. Инициализируем без автоматического старта
     mermaid.initialize({ startOnLoad: false, theme: 'default' });
 
-    // 2. Находим все блоки кода с классом language-mermaid
-    const mermaidBlocks = document.querySelectorAll('pre code.language-mermaid');
+    // Ищем блоки, которые генерирует Jekyll (он вешает класс на внешний div)
+    const jekyllBlocks = document.querySelectorAll('.language-mermaid');
     
-    mermaidBlocks.forEach(function (codeBlock) {
-      // Берем родительский тег <pre>
-      const preBlock = codeBlock.parentElement;
+    jekyllBlocks.forEach(function (block) {
+      // Ищем сам текст кода внутри блока
+      const codeElement = block.querySelector('code');
+      if (!codeElement) return;
       
-      // Создаем новый чистый тег <div> для Mermaid
-      const div = document.createElement('div');
-      div.className = 'mermaid';
-      div.textContent = codeBlock.textContent;
+      // Создаем правильный контейнер, который требует Mermaid
+      const mermaidDiv = document.createElement('div');
+      mermaidDiv.className = 'mermaid';
+      mermaidDiv.textContent = codeElement.textContent;
 
-      // Заменяем громоздкий <pre><code...> на наш новый <div>
-      preBlock.parentNode.insertBefore(div, preBlock);
-      preBlock.parentNode.removeChild(preBlock);
+      // Вставляем новый блок перед старым, а старый (от Jekyll) удаляем
+      block.parentNode.insertBefore(mermaidDiv, block);
+      block.parentNode.removeChild(block);
     });
 
-    // 3. Запускаем рендеринг для всех созданных div.mermaid
+    // Запускаем отрисовку всех найденных диаграмм
     mermaid.run();
   });
 </script>
