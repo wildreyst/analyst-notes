@@ -133,10 +133,9 @@ nav_order: 1
 
 ## Визуализация ролей
 
-<div class="mermaid">
+```mermaid
 graph LR
     Business["Бизнес"] -->|ставит цели| BA["БА"]
     BA -->|формализует требования| SA["СА"]
     SA -->|техническое задание| Team["Команда"]
     Team -->|реализация| Business
-</div>
