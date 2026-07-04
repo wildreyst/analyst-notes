@@ -5,3 +5,8 @@ search_enabled: true
 search:
   heading_level: 2
 color_scheme: light
+defaults:
+  - scope:
+      path: ""
+    values:
+      toc: false
