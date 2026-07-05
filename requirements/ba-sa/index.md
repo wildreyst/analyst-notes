@@ -133,14 +133,6 @@ nav_order: 1
 
 ## Визуализация ролей
 
-<div class="mermaid">
-graph LR
-    Business["Бизнес"] -->|ставит цели| BA["БА"]
-    BA -->|формализует требования| SA["СА"]
-    SA -->|техническое задание| Team["Команда"]
-    Team -->|реализация| Business
-</div>
-
 {% raw %}
 <pre class="mermaid">
 graph LR
@@ -151,7 +143,3 @@ graph LR
 </pre>
 {% endraw %}
 
-<script type="module">
-  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-  mermaid.initialize({ startOnLoad: true, theme: 'default' });
-</script>
