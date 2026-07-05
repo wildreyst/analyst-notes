@@ -1,7 +1,31 @@
-<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
-<script>
-  document.addEventListener('DOMContentLoaded', function () {
-    mermaid.initialize({ startOnLoad: false, theme: 'default' });
-    mermaid.run();
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: false, theme: 'default' });
+
+  document.addEventListener('DOMContentLoaded', async () => {
+    // Ищем все элементы code на странице
+    const codeBlocks = document.querySelectorAll('code');
+    
+    codeBlocks.forEach(block => {
+      // Если внутри кода есть ключевые слова Mermaid
+      if (block.textContent.trim().startsWith('graph ') || block.classList.contains('language-mermaid')) {
+        let wrapper = block;
+        
+        // Выбираемся из матрешки Jekyll
+        while (wrapper.parentElement && (wrapper.parentElement.tagName === 'PRE' || wrapper.parentElement.tagName === 'DIV')) {
+          if (wrapper.parentElement.id === 'main' || wrapper.parentElement.tagName === 'BODY') break;
+          wrapper = wrapper.parentElement;
+        }
+        
+        const newDiv = document.createElement('div');
+        newDiv.className = 'mermaid';
+        newDiv.textContent = block.textContent;
+        
+        wrapper.parentNode.insertBefore(newDiv, wrapper);
+        wrapper.parentNode.removeChild(wrapper);
+      }
+    });
+
+    await mermaid.run();
   });
 </script>
