@@ -1,10 +1,9 @@
-<script type="module">
-    if (document.querySelector('code.language-mermaid')) {
-        //console.log('mermaid blocks detected, processing');
-        import('https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs')
-            .then(async ({ default: mermaid }) => {
-                mermaid.initialize({ startOnLoad: false, theme: 'neutral' });
-                await mermaid.run({ querySelector: 'code.language-mermaid' });
-            });
-    }
+<!-- Загружаем библиотеку Mermaid -->
+<script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+<script>
+  // Ждём полной загрузки страницы, затем запускаем рендеринг
+  document.addEventListener('DOMContentLoaded', function () {
+    mermaid.initialize({ startOnLoad: false, theme: 'default' });
+    mermaid.run();
+  });
 </script>
