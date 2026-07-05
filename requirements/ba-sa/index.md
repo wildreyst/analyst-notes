@@ -145,3 +145,18 @@ graph LR
   import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
   mermaid.initialize({ startOnLoad: true, theme: 'default' });
 </script>
+
+<div class="mermaid">
+graph LR
+    A --> B
+    B --> C
+    C --> A
+</div>
+
+<div class="mermaid">
+graph LR
+    Business["Бизнес"] -->|ставит цели| BA["БА"]
+    BA -->|формализует требования| SA["СА"]
+    SA -->|техническое задание| Team["Команда"]
+    Team -->|реализация| Business
+</div>
