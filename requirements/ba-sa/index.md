@@ -141,22 +141,17 @@ graph LR
     Team -->|реализация| Business
 </div>
 
-<script type="module">
-  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-  mermaid.initialize({ startOnLoad: true, theme: 'default' });
-</script>
-
-<div class="mermaid">
-graph LR
-    A --> B
-    B --> C
-    C --> A
-</div>
-
-<div class="mermaid">
+{% raw %}
+<pre class="mermaid">
 graph LR
     Business["Бизнес"] -->|ставит цели| BA["БА"]
     BA -->|формализует требования| SA["СА"]
     SA -->|техническое задание| Team["Команда"]
     Team -->|реализация| Business
-</div>
+</pre>
+{% endraw %}
+
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: true, theme: 'default' });
+</script>
