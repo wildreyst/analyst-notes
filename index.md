@@ -23,6 +23,7 @@ nav_order: 1
 
 ### [🗂️ Методологии](/analyst-notes/methodologies/)
 
+- [Общее](/analyst-notes/methodologies/general/)
 - [Waterfall](/analyst-notes/methodologies/waterfall/)
 - [Agile](/analyst-notes/methodologies/agile/)
 - [Scrum](/analyst-notes/methodologies/scrum/)
