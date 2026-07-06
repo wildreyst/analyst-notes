@@ -13,7 +13,7 @@ nav_order: 1
 
 - [SA/BA](/analyst-notes/requirements/ba-sa/)
 - [Приоритизация](/analyst-notes/requirements/prioritization/)
-- [Фазы / процессы](/analyst-notes/requirements/phases-processes/)
+- [Фазы / процессы](/analyst-notes/requirements/phases/)
 - [Прототипирование](/analyst-notes/requirements/prototyping/)
 - [User Story](/analyst-notes/requirements/user-story/)
 - [Use Case](/analyst-notes/requirements/use-case/)
