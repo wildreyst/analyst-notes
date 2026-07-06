@@ -8,7 +8,7 @@ toc: false
 
 # 📋 Требования
 
-- [BA/SA](/analyst-notes/requirements/ba-sa/)
+- [Общее](/analyst-notes/requirements/general/)
 - [Приоритизация и оценка задач](/analyst-notes/requirements/prioritization/)
 - [Фазы проекта, процессы и роли](/analyst-notes/requirements/phases/)
 - [Прототипирование](/analyst-notes/requirements/prototyping/)
@@ -16,3 +16,4 @@ toc: false
 - [Use Case](/analyst-notes/requirements/use-case/)
 - [SWOT-анализ](/analyst-notes/requirements/swot/)
 - [Декомпозиция](/analyst-notes/requirements/decomposition/)
+- [BA/SA](/analyst-notes/requirements/ba-sa/)
