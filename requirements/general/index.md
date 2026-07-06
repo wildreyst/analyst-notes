@@ -1,5 +1,5 @@
 ---
-title: Общие понятия (General)
+title: Общее
 parent: Требования
 nav_order: 1
 ---
