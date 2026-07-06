@@ -65,3 +65,4 @@ nav_order: 4
   ![Прототип](pics/prototype.png)
 
 </details>
+
