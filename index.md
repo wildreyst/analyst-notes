@@ -12,7 +12,7 @@ nav_order: 1
 ### [📋 Требования](/analyst-notes/requirements/)
 
 - [SA/BA](/analyst-notes/requirements/ba-sa/)
-- [Приоритизация](/analyst-notes/requirements/prioritization/)
+- [Приоритизация и оценка задач](/analyst-notes/requirements/prioritization/)
 - [Фазы проекта, процессы и роли](/analyst-notes/requirements/phases/)
 - [Прототипирование](/analyst-notes/requirements/prototyping/)
 - [User Story](/analyst-notes/requirements/user-story/)
