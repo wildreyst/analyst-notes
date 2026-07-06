@@ -72,9 +72,9 @@ Use Case (сценарий использования) — это детальн
 ```gherkin
 Given user sees the list of parking structures for their current location
 When user clicks on the "Sort by" text
-Then application shows next options: "Most popular", "Distance", "Price"
+Then application shows next options "Most popular", "Distance", "Price"
 
-Given user sees next options of sorting available to select: "Most popular", "Distance", "Price"
+Given user sees next options of sorting available to select "Most popular", "Distance", "Price"
 When user clicks on the "Distance" option
 Then application sorts parking structures based on the direction 0-9
 And it takes no longer than 2 seconds to do the sorting
@@ -94,7 +94,13 @@ And it takes no longer than 2 seconds to do the sorting
 * 📏 **Оценка:** Задача оценена командой (например, в Story Points или часах) и помещается в один спринт.
 * 🔗 **Зависимости:** Все внешние зависимости (доступы, готовность API от смежных команд) разрешены.
 
-![DoR](pics/dor.png)
+**Примеры DoR для User Story (согласно схеме):**
+* 📝 **Ясность:** US имеет ясное и краткое описание.
+* 🤝 **Согласованность:** DoD определены и утверждены командой.
+* 📦 **Доступность материалов:** Все необходимые ресурсы, технические спецификации и прототипы доступны.
+* 🔗 **Связи:** Все зависимости от других US зафиксированы.
+* 📊 **Проработка:** US приоритизирована и оценена командой.
+* ✅ **Критерии проверки:** Команда договорилась об Acceptance Criteria.
 
 ### Definition of Done (DoD) — Критерии завершённости
 Это чек-лист, который подтверждает, что инкремент (результат работы по User Story) полностью готов и его можно передавать пользователям. Пока не выполнены все пункты DoD, задача не считается завершённой, даже если код уже написан.
@@ -107,4 +113,10 @@ And it takes no longer than 2 seconds to do the sorting
 * 📚 **Документация:** Обновлена техническая документация (API, схемы) и пользовательские инструкции.
 * 🚀 **Релиз:** Фича успешно развернута на тестовом (Staging) или продуктовом (Production) стенде.
 
-![DoD](pics/dod.png)
+**Примеры DoD для User Story (согласно схеме):**
+* 🧪 **Unit-тесты:** Юнит тесты пройдены.
+* 👀 **Ревью:** Код просмотрен (Code Review).
+* 🎯 **Требования:** Acceptance Criteria выполнены.
+* ⚙️ **QA:** Функциональные тесты пройдены.
+* 🔒 **Стандарты:** Выполнены нефункциональные требования.
+* 👑 **Приёмка:** Владелец Продукта (Product Owner) принял User Story.
