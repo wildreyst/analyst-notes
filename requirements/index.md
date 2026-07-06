@@ -16,4 +16,3 @@ toc: false
 - [Use Case](/analyst-notes/requirements/use-case/)
 - [SWOT-анализ](/analyst-notes/requirements/swot/)
 - [Декомпозиция](/analyst-notes/requirements/decomposition/)
-- [ПМИ/ПСИ](/analyst-notes/requirements/pmi-psi/)
