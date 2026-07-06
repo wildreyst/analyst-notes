@@ -11,7 +11,7 @@ nav_order: 1
 
 ### [📋 Требования](/analyst-notes/requirements/)
 
-- [SA/BA](/analyst-notes/requirements/ba-sa/)
+- [Общее](/analyst-notes/requirements/general/)
 - [Приоритизация и оценка задач](/analyst-notes/requirements/prioritization/)
 - [Фазы проекта, процессы и роли](/analyst-notes/requirements/phases/)
 - [Прототипирование](/analyst-notes/requirements/prototyping/)
@@ -19,6 +19,7 @@ nav_order: 1
 - [Use Case](/analyst-notes/requirements/use-case/)
 - [SWOT-анализ](/analyst-notes/requirements/swot/)
 - [Декомпозиция](/analyst-notes/requirements/decomposition/)
+- [SA/BA](/analyst-notes/requirements/ba-sa/)
 
 ### [🗂️ Методологии](/analyst-notes/methodologies/)
 
