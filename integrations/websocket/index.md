@@ -67,6 +67,7 @@ toc: false
 ## 📦 Пример использования (JavaScript)
 
 **Клиентская сторона:**
+
 ```javascript
 // Подключение к серверу WebSocket
 const socket = new WebSocket('wss://example.com/socket');
