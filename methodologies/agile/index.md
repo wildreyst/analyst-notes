@@ -1,6 +1,6 @@
 ---
 title: Agile
-parent: Методологии разработки ПО
+parent: Методологии
 nav_order: 2
 toc: false
 ---
