@@ -9,7 +9,7 @@ toc: false
 
 **Apache Kafka** — это распределенная система обмена сообщениями между серверными приложениями в режиме реального времени. 
 
-![Kafka Architecture](kafkaex1.png)
+![Kafka Architecture](pics/kafkaex1.png)
 
 ---
 
@@ -30,15 +30,15 @@ toc: false
 ### Сообщение
 Каждое событие (сообщение) — это пара «ключ-значение». Ключ партицирования может быть любой: числовой, строковый, объект или вовсе пустой. Значение тоже может быть любым — числом, строкой или объектом в своей предметной области, который вы можете как-то сериализовать (JSON, Protobuf, …) и хранить.
 
-![Структура сообщения](message.png)
+![Структура сообщения](pics/message.png)
 
 ### Сегмент
 Сегмент удобно представить как обычный лог-файл: каждая следующая запись добавляется в конец файла и не меняет предыдущих записей. Фактически это очередь FIFO (First-In-First-Out), и Kafka реализует именно эту модель.
 
-![Сегмент 1](segment1.png)
-![Сегмент 2](segment2.png)
-![Сегмент 3](segment3.png)
-![Сегмент 4](segment4.png)
+![Сегмент 1](pics/segment1.png)
+![Сегмент 2](pics/segment2.png)
+![Сегмент 3](pics/segment3.png)
+![Сегмент 4](pics/segment4.png)
 
 В контексте сегментов важна их **ротация**. Когда сегмент достигает своего предела, он закрывается, и вместо него открывается новый. Сегмент, в который сейчас записываются данные, называют *активным сегментом* (файл, открытый процессом брокера). *Закрытыми* называются те сегменты, в которых больше нет записи.
 
@@ -65,14 +65,14 @@ toc: false
 *   **Ack (Acknowledgement)** используется в основном на стороне Producer'а для подтверждения успешной записи брокером.
 *   **Nack (Negative Acknowledgement)** не существует для консьюмера. Если консьюмер не смог обработать сообщение, он просто *не коммитит* новое смещение. При перезапуске он заново прочитает эти же сообщения.
 
-![Ack and Nack](ackandnack.png)
-![Acks General](acksgeneral.png)
+![Ack and Nack](pics/ackandnack.png)
+![Acks General](pics/acksgeneral.png)
 
 ### Dead Letter Queue (DLQ) в Kafka
 В отличие от RabbitMQ, в Kafka нет «коробочной» (встроенной в брокер) очереди недоставленных сообщений (DLQ). Это архитектурный паттерн, который реализуется **на стороне приложения (Consumer)**.
 Если консьюмер встречает невалидное сообщение («ядовитую пилюлю»), которое невозможно обработать, он программно публикует это сообщение в отдельный специально созданный топик (например, `orders-dlq`), а основное смещение двигает вперед, чтобы не заблокировать очередь. Разработчики впоследствии анализируют сообщения в DLQ для устранения проблем.
 
-![Retries and DLQ](retries.png)
+![Retries and DLQ](pics/retries.png)
 
 ### Гарантии доставки
 Существует 3 типа гарантии доставки:
@@ -91,10 +91,12 @@ toc: false
 Схемы обмена сообщениями базируются на двух основных моделях:
 
 **1. Точка-точка (Point-to-point)**
-![Point-to-Point](dotdot.png)
+
+![Point-to-Point](pics/dotdot.png)
 
 **2. Публикация-подписка (Publish-subscribe)**
-![Publish-Subscribe](publishsubscribe.png)
+
+![Publish-Subscribe](pics/publishsubscribe.png)
 
 ---
 
@@ -113,7 +115,7 @@ toc: false
 
 Обе системы являются популярными брокерами сообщений, но имеют принципиально разные архитектуры и сценарии использования.
 
-![RabbitMQ General](rabbitmqgeneral.png)
+![RabbitMQ General](pics/rabbitmqgeneral.png)
 
 ### Сводная таблица отличий
 
@@ -138,7 +140,7 @@ toc: false
 ## 🔗 Полезные материалы
 
 *   [Типичные грабли Kafka: что (не)видит аналитик (YouTube)](https://www.youtube.com/watch?v=-AZOi3kP9Js)
-*   [Kafka для начинающих (YouTube)](#) *(Ссылка требует уточнения)*
+*   [Kafka для начинающих (YouTube)](https://www.youtube.com/watch?v=hbseyn-CfXY)
 *   [Основы технологии Apache Kafka (Slurm)](https://slurm.io/blog/tpost/pnyjznpvr1-apache-kafka-osnovi-tehnologii)
 *   [Статья на Habr от Datanomica](https://habr.com/ru/companies/datanomica/articles/743112/)
 *   [Концепции хранилища Kafka (Arenadata)](https://docs.arenadata.io/ru/ADStreaming/current/concept/architecture/kafka/storage_concepts.html#:~:text=at%20least%20once%20%E2%80%94%20%D1%81%D0%BC%D0%B5%D1%89%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BF%D1%80%D0%B8%D0%BD%D0%B8%D0%BC%D0%B0%D0%B5%D1%82%D1%81%D1%8F,%D0%B2%D1%81%D0%B5%20%D1%81%D0%BE%D0%BE%D0%B1%D1%89%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D1%8F%D1%8E%D1%82%D1%81%D1%8F%20%D0%BE%D0%B4%D0%B8%D0%BD%20%D1%80%D0%B0%D0%B7.)
