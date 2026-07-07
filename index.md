@@ -31,6 +31,7 @@ nav_order: 1
 
 ### [🔌 Интеграции](/analyst-notes/integrations/)
 
+- [Общее](/analyst-notes/integrations/general/)
 - [REST](/analyst-notes/integrations/rest/)
 - [SOAP](/analyst-notes/integrations/soap/)
 - [Kafka](/analyst-notes/integrations/kafka/)
