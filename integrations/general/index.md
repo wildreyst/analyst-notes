@@ -1,5 +1,6 @@
 ---
 title: Общее
+parent: Интеграции
 nav_order: 1
 toc: false
 ---
