@@ -86,3 +86,4 @@ socket.addEventListener('message', (event) => {
 socket.addEventListener('close', (event) => {
     console.log('Соединение закрыто', event.code, event.reason);
 });
+```
