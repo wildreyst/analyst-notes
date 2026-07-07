@@ -122,4 +122,4 @@ mutation {
 
 ---
 
-![GraphQL](gr.png)
+![GraphQL](pics/gr.png)
