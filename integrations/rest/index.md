@@ -1,5 +1,6 @@
 ---
 title: REST
+parent: Интеграции
 nav_order: 2
 toc: false
 ---
