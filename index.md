@@ -41,6 +41,7 @@ nav_order: 1
 
 ### [🏗️ Архитектура](/analyst-notes/architecture/)
 
+- [Общее](/analyst-notes/architecture/general/)
 - [DevOps](/analyst-notes/architecture/devops/)
 - [Логи](/analyst-notes/architecture/logging/)
 - [МК паттерны](/analyst-notes/architecture/mk-patterns/)
@@ -52,6 +53,7 @@ nav_order: 1
 
 ### [🌐 Сети](/analyst-notes/networks/)
 
+- [Общее](/analyst-notes/networks/general/)
 - [Git](/analyst-notes/networks/git/)
 - [HTTP/HTTPS](/analyst-notes/networks/http-https/)
 - [SSL](/analyst-notes/networks/ssl/)
