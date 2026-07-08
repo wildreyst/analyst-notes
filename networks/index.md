@@ -11,5 +11,4 @@ toc: false
 - [Общее](/analyst-notes/networks/general/)
 - [Git](/analyst-notes/networks/git/)
 - [HTTP/HTTPS](/analyst-notes/networks/http-https/)
-- [SSL](/analyst-notes/networks/ssl/)
-- [TLS](/analyst-notes/networks/tls/)
+- [SSL/TLS](/analyst-notes/networks/ssl-tls/)
