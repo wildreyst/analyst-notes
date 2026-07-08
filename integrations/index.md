@@ -15,3 +15,4 @@ toc: false
 - [GraphQL](/analyst-notes/integrations/graphql/)
 - [Webhook](/analyst-notes/integrations/webhook/)
 - [Websocket](/analyst-notes/integrations/websocket/)
+- [FIFO](/analyst-notes/integrations/fifo/)
