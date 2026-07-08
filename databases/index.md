@@ -8,6 +8,7 @@ toc: false
 
 ### [🗄️ Базы данных](/analyst-notes/databases/)
 
+- [Общее](/analyst-notes/databases/general/)
 - [SQL](/analyst-notes/databases/sql/)
 - [Транзакции](/analyst-notes/databases/transactions/)
 - [Масштабирование](/analyst-notes/databases/scaling/)
