@@ -27,7 +27,7 @@ LIMIT  -- 'ограничение количества выводимых стр
 ```
 *(Важно: База данных читает запрос не сверху вниз, а в таком порядке: `FROM` ➝ `WHERE` ➝ `GROUP BY` ➝ `HAVING` ➝ `SELECT` ➝ `ORDER BY` ➝ `LIMIT`).*
 
-![SQL Example](sqlexample.png)
+![SQL Example](pics/sqlexample.png)
 
 ---
 
@@ -35,8 +35,8 @@ LIMIT  -- 'ограничение количества выводимых стр
 
 **SQL Join** — это операция, которая используется для объединения строк из нескольких таблиц на основе связанного между ними столбца. 
 
-![SQL Joins](sqljoins.png)
-![Join](join.png)
+![SQL Joins](pics/sqljoins.png)
+![Join](pics/join.png)
 
 *   **INNER JOIN** (обычно идет по умолчанию): возвращает только те строки, которые имеют совпадения в обеих таблицах.
 *   **LEFT JOIN:** возвращает все строки из левой таблицы и совпавшие строки из правой.
@@ -245,4 +245,4 @@ EXEC GetEmployeeDetails @EmployeeID = 5;
 
 ---
 
-![SQL Cheatsheet](sqlcheet.png)
+![SQL Cheatsheet](pics/sqlcheet.png)
