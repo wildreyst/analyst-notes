@@ -6,7 +6,7 @@ permalink: /databases/
 has_toc: false
 ---
 
-### [🗄️ Базы данных](/analyst-notes/databases/)
+# 🗄️ Базы данных
 
 - [Общее](/analyst-notes/databases/general/)
 - [SQL](/analyst-notes/databases/sql/)
