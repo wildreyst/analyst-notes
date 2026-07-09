@@ -2,7 +2,7 @@
 title: Индексы
 parent: Базы данных
 nav_order: 8
-toc: false
+has_toc: false
 ---
 
 # 📇 Индексы в базах данных
