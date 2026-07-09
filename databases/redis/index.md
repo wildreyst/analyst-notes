@@ -2,7 +2,7 @@
 title: Redis
 parent: Базы данных
 nav_order: 9
-toc: false
+has_toc: false
 ---
 
 # 🔴 Redis
