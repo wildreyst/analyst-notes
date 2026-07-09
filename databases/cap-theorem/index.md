@@ -2,7 +2,7 @@
 title: CAP-теорема
 parent: Базы данных
 nav_order: 11
-toc: false
+has_toc: false
 ---
 
 # 📐 CAP-теорема
