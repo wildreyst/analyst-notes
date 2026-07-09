@@ -2,7 +2,7 @@
 title: Оконные функции
 parent: Базы данных
 nav_order: 10
-toc: false
+has_toc: false
 ---
 
 # 🪟 Оконные функции в SQL
