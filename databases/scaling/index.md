@@ -2,7 +2,7 @@
 title: Масштабирование
 parent: Базы данных
 nav_order: 4
-toc: false
+has_toc: false
 ---
 
 # 📈 Масштабирование (Scaling)
