@@ -2,7 +2,7 @@
 title: Domain-Driven Design (DDD)
 parent: Архитектура
 nav_order: 6
-toc: false
+has_toc: false
 ---
 
 # 🧱 Domain-Driven Design (DDD)
