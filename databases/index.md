@@ -18,3 +18,4 @@ toc: false
 - [Redis](/analyst-notes/databases/redis/)
 - [Оконные функции](/analyst-notes/databases/window-functions/)
 - [CAP теорема](/analyst-notes/databases/cap-theorem/)
+
