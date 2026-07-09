@@ -2,7 +2,7 @@
 title: Транзакции
 parent: Базы данных
 nav_order: 3
-toc: false
+has_toc: false
 ---
 
 # 🔄 Транзакции в SQL
