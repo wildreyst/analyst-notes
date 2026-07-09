@@ -39,7 +39,7 @@ nav_order: 1
 - [Webhook](/analyst-notes/integrations/webhook/)
 - [Websocket](/analyst-notes/integrations/websocket/)
 - [FIFO](/analyst-notes/integrations/fifo/)
-- [Swagger](/analyst-notes/integrations/swagger/)
+- [Swagger (OpenAPI)](/analyst-notes/integrations/swagger/)
 
 ### [🏗️ Архитектура](/analyst-notes/architecture/)
 
