@@ -62,6 +62,7 @@ nav_order: 1
 
 ### [🗄️ Базы данных](/analyst-notes/databases/)
 
+- [Общее](/analyst-notes/databases/general/)
 - [SQL](/analyst-notes/databases/sql/)
 - [Транзакции](/analyst-notes/databases/transactions/)
 - [Масштабирование](/analyst-notes/databases/scaling/)
@@ -74,6 +75,7 @@ nav_order: 1
 
 ### [📊 UML](/analyst-notes/uml/)
 
+- [Общее](/analyst-notes/uml/general/)
 - [Диаграмма классов](/analyst-notes/uml/class-diagram/)
 - [Диаграмма действий](/analyst-notes/uml/activity-diagram/)
 - [Диаграмма Use Case](/analyst-notes/uml/use-case-diagram/)
