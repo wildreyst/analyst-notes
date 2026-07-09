@@ -8,6 +8,7 @@ has_toc: false
 
 # 📊 UML
 
+- [Общее](/analyst-notes/uml/general/)
 - [Диаграмма классов](/analyst-notes/uml/class-diagram/)
 - [Диаграмма действий](/analyst-notes/uml/activity-diagram/)
 - [Диаграмма Use Case](/analyst-notes/uml/use-case-diagram/)
