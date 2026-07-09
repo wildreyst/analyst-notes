@@ -85,6 +85,7 @@ nav_order: 1
 
 ### [🔒 Безопасность](/analyst-notes/security/)
 
+- [Общее](/analyst-notes/security/general/)
 - [Маскирование](/analyst-notes/security/masking/)
 - [Шифрование](/analyst-notes/security/encryption/)
 - [Хеш](/analyst-notes/security/hash/)
