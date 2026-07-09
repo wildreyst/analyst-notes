@@ -2,7 +2,7 @@
 title: SQL
 parent: Базы данных
 nav_order: 2
-toc: false
+has_toc: false
 ---
 
 # 🗄️ SQL (Structured Query Language)
