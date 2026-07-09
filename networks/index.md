@@ -3,7 +3,7 @@ title: Сети
 nav_order: 6
 has_children: true
 permalink: /networks/
-toc: false
+has_toc: false
 ---
 
 ### [🏗️ Сети](/analyst-notes/networks/)
