@@ -3,8 +3,10 @@ title: UML
 nav_order: 8
 has_children: true
 permalink: /uml/
-toc: false
+has_toc: false
 ---
+
+# 📊 UML
 
 - [Диаграмма классов](/analyst-notes/uml/class-diagram/)
 - [Диаграмма действий](/analyst-notes/uml/activity-diagram/)
