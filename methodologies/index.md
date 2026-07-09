@@ -3,7 +3,7 @@ title: Методологии
 nav_order: 3
 has_children: true
 permalink: /methodologies/
-toc: false
+has_toc: false
 ---
 
 # 🗂️ Методологии
