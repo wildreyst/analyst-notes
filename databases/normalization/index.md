@@ -2,7 +2,7 @@
 title: Нормализация
 parent: Базы данных
 nav_order: 5
-toc: false
+has_toc: false
 ---
 
 # 🗃️ Нормализация баз данных
