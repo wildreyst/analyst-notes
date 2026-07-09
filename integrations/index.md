@@ -3,7 +3,7 @@ title: Интеграции
 nav_order: 4
 has_children: true
 permalink: /integrations/
-toc: false
+has_toc: false
 ---
 
 # 📋 Интеграции
