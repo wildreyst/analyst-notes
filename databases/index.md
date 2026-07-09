@@ -3,7 +3,7 @@ title: Базы данных
 nav_order: 7
 has_children: true
 permalink: /databases/
-toc: false
+has_toc: false
 ---
 
 ### [🗄️ Базы данных](/analyst-notes/databases/)
