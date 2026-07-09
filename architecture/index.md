@@ -3,7 +3,7 @@ title: Архитектура
 nav_order: 5
 has_children: true
 permalink: /architecture/
-toc: false
+has_toc: false
 ---
 
 ### [🏗️ Архитектура](/analyst-notes/architecture/)
