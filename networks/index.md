@@ -6,7 +6,7 @@ permalink: /networks/
 has_toc: false
 ---
 
-### [🏗️ Сети](/analyst-notes/networks/)
+# 📊 UML
 
 - [Общее](/analyst-notes/networks/general/)
 - [Git](/analyst-notes/networks/git/)
