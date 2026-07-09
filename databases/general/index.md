@@ -2,7 +2,7 @@
 title: Общее
 parent: Базы данных
 nav_order: 1
-toc: false
+has_toc: false
 ---
 
 # 🗄️ Общее
