@@ -1,7 +1,7 @@
 ---
 title: Swagger (OpenAPI)
-parent: Системная интеграция (General)
-nav_order: 6
+parent: Интеграции
+nav_order: 9
 toc: false
 ---
 
