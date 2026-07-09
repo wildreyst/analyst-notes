@@ -6,7 +6,7 @@ permalink: /architecture/
 has_toc: false
 ---
 
-### [🏗️ Архитектура](/analyst-notes/architecture/)
+# 🏗️ Архитектура
 
 - [DevOps](/analyst-notes/architecture/devops/)
 - [Логи](/analyst-notes/architecture/logging/)
