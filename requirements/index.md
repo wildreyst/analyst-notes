@@ -17,4 +17,4 @@ has_toc: false
 - [SWOT-анализ](/analyst-notes/requirements/swot/)
 - [Декомпозиция](/analyst-notes/requirements/decomposition/)
 - [BA/SA](/analyst-notes/requirements/ba-sa/)
-- [Vision & Scope (V&S)](/analyst-notes/requirements/vs/)
+- [Риски](/analyst-notes/requirements/risks/)
