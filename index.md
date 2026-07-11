@@ -20,6 +20,7 @@ nav_order: 1
 - [SWOT-анализ](/analyst-notes/requirements/swot/)
 - [Декомпозиция](/analyst-notes/requirements/decomposition/)
 - [SA/BA](/analyst-notes/requirements/ba-sa/)
+- [Vision & Scope (V&S)](/analyst-notes/requirements/vs/)
 
 ### [🗂️ Методологии](/analyst-notes/methodologies/)
 
