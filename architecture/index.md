@@ -8,6 +8,7 @@ has_toc: false
 
 # 🏗️ Архитектура
 
+- [Общее](/analyst-notes/architecture/general/)
 - [DevOps](/analyst-notes/architecture/devops/)
 - [Логи](/analyst-notes/architecture/logging/)
 - [МК паттерны](/analyst-notes/architecture/mk-patterns/)
