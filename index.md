@@ -21,7 +21,8 @@ nav_order: 1
 - [Декомпозиция](/analyst-notes/requirements/decomposition/)
 - [SA/BA](/analyst-notes/requirements/ba-sa/)
 - [Vision & Scope (V&S)](/analyst-notes/requirements/vs/)
-
+- [Риски](/analyst-notes/requirements/risks/)
+- 
 ### [🗂️ Методологии](/analyst-notes/methodologies/)
 
 - [Общее](/analyst-notes/methodologies/general/)
