@@ -1,7 +1,7 @@
 ---
-title: Общее (Безопасность)
-parent: Системная интеграция (General)
-nav_order: 19
+title: Общее
+parent: Безопасность
+nav_order: 1
 has_toc: false
 ---
 
