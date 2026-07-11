@@ -92,7 +92,7 @@ SELECT * FROM products WHERE category = 'Gifts'--' AND released = 1
 3.  Имеет достаточную длину, чтобы быть устойчивым к брутфорсу (перебору).
 4.  В идеале — используется только один раз (на одну сессию или запрос).
 
-![Signature Validation](pics/signatur.png)
+![Signature Validation](pics/signature.png)
 
 ### Double Submit Cookie (Двойная отправка)
 Также популярен метод использования двух токенов (Double Submit Cookie). Сервер генерирует токен и помещает его значение сразу в два места:
