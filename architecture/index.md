@@ -17,3 +17,4 @@ has_toc: false
 - [Event-driven архитектура](/analyst-notes/architecture/event-driven/)
 - [Принципы](/analyst-notes/architecture/principles/)
 - [Фича тоглинг](/analyst-notes/architecture/feature-toggles/)
+- [HAProxy](/analyst-notes/architecture/haproxy/)
