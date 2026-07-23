@@ -18,3 +18,4 @@ has_toc: false
 - [Декомпозиция](/analyst-notes/requirements/decomposition/)
 - [BA/SA](/analyst-notes/requirements/ba-sa/)
 - [Риски](/analyst-notes/requirements/risks/)
+- [Docs as Code](/analyst-notes/requirements/docsascode/)
