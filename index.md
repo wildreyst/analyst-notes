@@ -22,7 +22,8 @@ nav_order: 1
 - [SA/BA](/analyst-notes/requirements/ba-sa/)
 - [Vision & Scope (V&S)](/analyst-notes/requirements/vs/)
 - [Риски](/analyst-notes/requirements/risks/)
-- 
+- [Docs as Code](/analyst-notes/requirements/docsascode/)
+
 ### [🗂️ Методологии](/analyst-notes/methodologies/)
 
 - [Общее](/analyst-notes/methodologies/general/)
