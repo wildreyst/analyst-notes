@@ -15,3 +15,4 @@ has_toc: false
 - [Диаграмма последовательности](/analyst-notes/uml/sequence-diagram/)
 - [Диаграмма ER](/analyst-notes/uml/er-diagram/)
 - [BPMN](/analyst-notes/uml/bpmn/)
+- [C4 (Component)](/analyst-notes/uml/c4-component/)
